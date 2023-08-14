@@ -7,6 +7,8 @@ const MySchema=require('../model/userModel');
 
 
 
+
+
 //get all users
 router.get('/allUsers', (req, res) => {
   MySchema.find({}).then((data)=>{
